@@ -29,7 +29,10 @@ export const siteConfig = {
   mapsEmbedUrl:
     "https://maps.google.com/maps?q=31.6332579,-8.0083219&z=17&output=embed",
   /** Profils officiels pour schema sameAs (identité / E-E-A-T) */
-  sameAs: ["https://maps.app.goo.gl/mLQ6ZKgBcsfUVNST9"],
+  sameAs: [
+    "https://maps.app.goo.gl/mLQ6ZKgBcsfUVNST9",
+    "https://github.com/maroccompte-dot/ibo-player.ma",
+  ],
   author: {
     name: "Soltane",
     jobTitle: "Directeur de publication",
