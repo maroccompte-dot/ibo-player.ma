@@ -1,0 +1,36 @@
+
+=== C:\Users\DELL\AppData\Local\Temp/share-google.html 94421
+title <title>Google Search
+IPTV true
+avis false
+review false
+├®toile false
+maps false
+Casablanca false
+Maurice false
+share false
+interesting 2
+
+#0: >ici</a> si, d'ici quelques secondes, vous n'avez pas ├®t├® redirig├®.</div></noscript><script nonce=
+
+#1: >Si vous avez des difficult├®s ├á acc├®der ├á la recherche Google, veuillez <a href=
+og []
+desc undefined
+
+=== C:\Users\DELL\AppData\Local\Temp/share-google2.html 93047
+title <title>Google Search
+IPTV true
+avis false
+review false
+├®toile false
+maps false
+Casablanca false
+Maurice false
+share false
+interesting 2
+
+#0: >ici</a> si, d'ici quelques secondes, vous n'avez pas ├®t├® redirig├®.</div></noscript><script nonce=
+
+#1: >Si vous avez des difficult├®s ├á acc├®der ├á la recherche Google, veuillez <a href=
+og []
+desc undefined

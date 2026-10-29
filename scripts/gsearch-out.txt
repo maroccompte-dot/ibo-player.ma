@@ -1,0 +1,26 @@
+
+=== gsearch-ibo.html 93288
+title <title>Google Search
+has {
+  IPTV: true,
+  avis: false,
+  '├®toiles': false,
+  Casablanca: true,
+  Review: false,
+  note: false
+}
+aria []
+texts []
+
+=== gsearch-kg.html 92904
+title <title>Google Search
+has {
+  IPTV: false,
+  avis: false,
+  '├®toiles': false,
+  Casablanca: false,
+  Review: false,
+  note: false
+}
+aria []
+texts []

@@ -1,0 +1,28 @@
+# IPTV IBO PLAYER (ibo-player.ma)
+
+> IPTV Maroc — activation lecteurs (IBO Player, TiviMate, Smarters…), abonnements / serveurs, boutique box TV, guides et SAV. Siège Casablanca. Couverture : Maroc entier (Rabat, Marrakech, Tanger, Fès…).
+
+Site francophone pour choisir et configurer un setup IPTV (lecteur + abonnement) au Maroc. Contenu orienté guides techniques et fiches produits.
+
+## Pages principales
+
+- [Accueil](https://ibo-player.ma/): IPTV Maroc — activation, FAQ, avis
+- [Applications IPTV](https://ibo-player.ma/application-iptv): Catalogue lecteurs
+- [Serveurs IPTV](https://ibo-player.ma/serveur-iptv): Abonnements Trex, Crystal, Strong 8K…
+- [Contact](https://ibo-player.ma/contact): Casablanca, e-mail, WhatsApp
+- [Blog IPTV Maroc](https://ibo-player.ma/blog): Guides fibre IAM/Inwi/Orange, avis serveurs
+- [Boutique Box TV](https://ibo-player.ma/boutique): Fire Stick, Formuler, sticks Android
+
+## Guides SEO
+
+- [Comment utiliser l’IPTV au Maroc](https://ibo-player.ma/blog/comment-utiliser-iptv-au-maroc)
+- [Débit internet IPTV Maroc](https://ibo-player.ma/blog/debit-internet-iptv-maroc)
+- [Choisir un abonnement IPTV Maroc](https://ibo-player.ma/blog/pourquoi-choisir-abonnement-iptv-maroc)
+- [IPTV Maroc pas cher](https://ibo-player.ma/blog/abonnement-iptv-maroc-pas-cher-eviter-revendeurs)
+
+## Légal
+
+- [Mentions légales](https://ibo-player.ma/mentions-legales)
+- [CGV](https://ibo-player.ma/cgv)
+- [Confidentialité](https://ibo-player.ma/politique-confidentialite)
+- [Sitemap](https://ibo-player.ma/sitemap.xml)

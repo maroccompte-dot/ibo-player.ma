@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+:root {
+  /* Drapeau marocain */
+  --ma-red: #c1272d;
+  --ma-red-deep: #9e1b21;
+  --ma-green: #006233;
+  --ma-green-soft: #e6f2ec;
+  --ma-white: #ffffff;
+
+  --bg: #f7f5f2;
+  --bg-elevated: #ffffff;
+  --ink: #1a1512;
+  --muted: #5c534c;
+  --accent: var(--ma-green);
+  --accent-soft: var(--ma-green-soft);
+  --line: rgba(26, 21, 18, 0.08);
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body), ui-sans-serif, sans-serif;
+}
+
+/* Réduit le coût de rendu des grilles longues (Lighthouse / agents) */
+.item-card-cv {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 320px;
+}
+
+.page-atmosphere {
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse 70% 45% at 8% -8%, rgba(0, 98, 51, 0.12), transparent 50%),
+    radial-gradient(ellipse 55% 40% at 92% 0%, rgba(193, 39, 45, 0.12), transparent 48%),
+    linear-gradient(180deg, #efeae4 0%, var(--bg) 40%, var(--bg) 100%);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(0, 98, 51, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 98, 51, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: linear-gradient(180deg, #000 40%, transparent 100%);
+}
+
+/* Barre marque Maroc : rouge — vert — rouge */
+.tricolor-bar {
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--ma-red) 0%,
+    var(--ma-red) 40%,
+    var(--ma-green) 40%,
+    var(--ma-green) 60%,
+    var(--ma-red) 60%,
+    var(--ma-red) 100%
+  );
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out both;
+}
+
+.animate-fade-up-delay {
+  animation: fade-up 0.7s ease-out 0.15s both;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fade-up 0.7s ease-out 0.28s both;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out both;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.45s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-fade-up-delay,
+  .animate-fade-up-delay-2,
+  .animate-fade-in,
+  .animate-slide-up {
+    animation: none;
+  }
+}
