@@ -129,11 +129,14 @@ export default function HomePage() {
             <h1 className="mt-4 max-w-xl font-[family-name:var(--font-display)] text-3xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
               Activation IPTV au Maroc : lecteurs, serveurs et abonnements
             </h1>
-            <p className="mt-3 font-[family-name:var(--font-display)] text-lg font-semibold text-slate-700 sm:text-xl">
-              ibo-player
-              <span className="text-[var(--ma-green)]">.</span>
-              <span className="text-[var(--ma-red)]">ma</span>
-            </p>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.png"
+              alt="IBO Player"
+              width={220}
+              height={56}
+              className="mt-4 h-12 w-auto object-contain sm:h-14"
+            />
             <p className="mt-4 max-w-lg text-base leading-relaxed text-slate-600 sm:text-lg">
               Un parcours clair :{" "}
               <strong>lecteur + abonnement + activation</strong>. Guides
@@ -194,13 +197,13 @@ export default function HomePage() {
             <div className="overflow-hidden border border-slate-200 shadow-[0_16px_40px_rgba(15,23,42,0.12)]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/hero-iptv-maroc.webp"
-                alt="Amis devant un match de football en streaming IPTV au Maroc"
-                width={760}
-                height={570}
-                loading="lazy"
+                src="/images/hero-iptv-maroc.webp?v=20261030b"
+                alt="Amis au Maroc devant un match IPTV, drapeau marocain à la main"
+                width={1200}
+                height={900}
+                fetchPriority="high"
                 decoding="async"
-                className="h-auto w-full object-cover object-center"
+                className="aspect-[4/3] h-auto w-full object-cover object-center"
               />
               <div className="tricolor-bar" aria-hidden />
             </div>

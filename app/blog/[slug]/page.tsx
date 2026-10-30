@@ -86,7 +86,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       url: siteConfig.url,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.url}/logo.svg`,
+        url: `${siteConfig.url}/logo.png`,
       },
     },
     mainEntityOfPage: {

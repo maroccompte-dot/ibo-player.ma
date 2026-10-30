@@ -4,9 +4,9 @@ import { siteConfig } from "@/lib/site";
 /** Image Open Graph / Twitter par défaut (1200×630 recommandé) */
 export const DEFAULT_OG_IMAGE = {
   url: "/images/hero-iptv-maroc.jpg",
-  width: 1019,
-  height: 679,
-  alt: "IPTV IBO PLAYER — activation IPTV au Maroc",
+  width: 1200,
+  height: 900,
+  alt: "IPTV Maroc — amis devant un match, drapeau marocain — IPTV IBO PLAYER",
 } as const;
 
 export const CONTENT_UPDATED_AT = "2026-10-30";
@@ -77,7 +77,7 @@ export function organizationJsonLd() {
       : {}),
     logo: {
       "@type": "ImageObject",
-        url: absoluteUrl("/logo.svg"),
+        url: absoluteUrl("/logo.png"),
     },
     image: absoluteUrl(DEFAULT_OG_IMAGE.url),
     address: {
