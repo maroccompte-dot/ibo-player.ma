@@ -4,15 +4,14 @@ import { buildPageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Contact IPTV Maroc — Marrakech & WhatsApp",
+  title: "Contact IPTV Maroc — Marrakech",
   description:
-    "Contact IPTV IBO PLAYER au Maroc : activation, SAV, devis. E-mail, WhatsApp, fiche Google Maps Marrakech.",
+    "Contact IPTV IBO PLAYER au Maroc : activation, SAV, devis. E-mail et fiche Google Maps Marrakech.",
   path: "/contact",
   keywords: [
     "contact IPTV Maroc",
     "IPTV Marrakech",
     "activation IPTV Maroc",
-    "WhatsApp IPTV Maroc",
     "SAV IPTV Maroc",
   ],
 });

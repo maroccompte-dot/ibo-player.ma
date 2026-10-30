@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 /** Incrémenter si le texte légal du bandeau change (réaffichage) */
-const STORAGE_KEY = "ibo-player-ma-cookie-consent-v1";
+const STORAGE_KEY = "ibo-player-ma-cookie-consent-v2";
 
 export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
@@ -43,9 +43,8 @@ export default function CookieBanner() {
           <p className="mt-1.5 text-sm leading-relaxed text-slate-600">
             Ce site n’utilise pas de cookies publicitaires ni d’outils
             d’audience tiers. Nous enregistrons localement votre choix pour ne
-            pas réafficher ce bandeau. Le bouton WhatsApp ouvre une
-            conversation chez Meta/WhatsApp (traitement hors Maroc possible) :
-            vous choisissez librement de nous écrire.{" "}
+            pas réafficher ce bandeau. Pour nous contacter, utilisez l’e-mail
+            ou la page contact.{" "}
             <Link
               href="/politique-confidentialite"
               className="font-semibold text-[var(--ma-green)] underline underline-offset-2"

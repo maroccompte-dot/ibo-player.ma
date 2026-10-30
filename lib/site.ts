@@ -57,8 +57,8 @@ export const siteConfig = {
     phone: "",
     /** Lien tel: international, ex. +212522000000 */
     phoneHref: "",
-    /** WhatsApp international sans + ni espaces */
-    whatsapp: "12519108756",
+    /** WhatsApp international sans + ni espaces — vide = bouton masqué */
+    whatsapp: "",
     director: "Soltane",
     host: {
       name: "Vercel Inc.",

@@ -43,8 +43,8 @@ export default function PolitiqueConfidentialitePage() {
             fonctionnement ;
           </li>
           <li>
-            Données que vous nous transmettez volontairement (e-mail de contact,
-            message, ou conversation WhatsApp) ;
+            Données que vous nous transmettez volontairement (e-mail de contact
+            ou message via le formulaire) ;
           </li>
           <li>
             Préférence d’information cookies stockée localement dans votre
@@ -62,9 +62,8 @@ export default function PolitiqueConfidentialitePage() {
             obligation technique ;
           </li>
           <li>
-            Réponse à vos demandes de contact (e-mail ou WhatsApp) — exécution
-            de mesures précontractuelles / intérêt légitime / consentement
-            lorsque vous initiez volontairement la conversation.
+            Réponse à vos demandes de contact (e-mail) — exécution de mesures
+            précontractuelles / intérêt légitime lorsque vous nous écrivez.
           </li>
         </ul>
         <p className="mt-3">
@@ -81,27 +80,28 @@ export default function PolitiqueConfidentialitePage() {
           choix (« J’accepte ») est enregistré localement dans le navigateur
           et n’est pas transmis à des tiers. L’hébergeur peut déposer des
           cookies strictement techniques nécessaires au fonctionnement du site
-          / CDN. Le bouton WhatsApp n’installe pas de cookie de tracking sur
-          notre site : il ouvre une page / application tierce (Meta).
+          / CDN.
         </p>
       </section>
 
       <section>
-        <h2>5. Contact via WhatsApp</h2>
+        <h2>5. Contact</h2>
         <p className="mt-3">
-          Un bouton flottant permet de nous écrire via WhatsApp (service édité
-          par Meta Platforms). En cliquant, vous quittez notre site et vos
-          données (numéro, message, métadonnées techniques) sont traitées par
-          WhatsApp / Meta selon leur propre politique de confidentialité. Ce
-          canal est facultatif : vous pouvez aussi nous écrire à{" "}
+          Pour toute demande, écrivez-nous à{" "}
           <a
             href={`mailto:${company.email}`}
             className="text-[var(--ma-green)] underline-offset-2 hover:underline"
           >
             {company.email}
+          </a>{" "}
+          ou via la{" "}
+          <a
+            href="/contact"
+            className="text-[var(--ma-green)] underline-offset-2 hover:underline"
+          >
+            page contact
           </a>
-          . Un transfert hors de l’Espace économique européen est possible via
-          Meta ; en poursuivant la conversation, vous en êtes informé.
+          . Aucun chat WhatsApp n’est proposé sur le site pour le moment.
         </p>
       </section>
 
@@ -111,9 +111,7 @@ export default function PolitiqueConfidentialitePage() {
           Les données de contact sont conservées le temps nécessaire au
           traitement de votre demande, puis archivées ou supprimées selon les
           délais légaux applicables. Les logs techniques sont conservés pour une
-          durée limitée compatible avec la sécurité du service. Les messages
-          WhatsApp suivent également les règles de conservation de Meta /
-          WhatsApp.
+          durée limitée compatible avec la sécurité du service.
         </p>
       </section>
 
@@ -121,8 +119,8 @@ export default function PolitiqueConfidentialitePage() {
         <h2>7. Destinataires</h2>
         <p className="mt-3">
           Les données peuvent être traitées par nos prestataires techniques
-          (hébergeur Vercel, DNS/CDN Cloudflare) et, si vous utilisez WhatsApp,
-          par Meta / WhatsApp, uniquement dans le cadre du contact demandé.
+          (hébergeur Vercel, DNS/CDN Cloudflare), uniquement dans le cadre du
+          fonctionnement du site et du traitement de vos demandes.
         </p>
       </section>
 
@@ -159,11 +157,10 @@ export default function PolitiqueConfidentialitePage() {
       <section>
         <h2>9. Transferts hors Maroc</h2>
         <p className="mt-3">
-          L’hébergement (Vercel), le DNS/CDN (Cloudflare) et WhatsApp / Meta
-          peuvent impliquer un traitement ou un transfert de données hors du
-          Maroc. Des garanties appropriées (contrats prestataires, politiques
-          des services) s’appliquent selon chaque acteur. Pour WhatsApp,
-          reportez-vous également à la politique de Meta.
+          L’hébergement (Vercel) et le DNS/CDN (Cloudflare) peuvent impliquer
+          un traitement ou un transfert de données hors du Maroc. Des garanties
+          appropriées (contrats prestataires, politiques des services)
+          s’appliquent selon chaque acteur.
         </p>
       </section>
     </LegalPage>

@@ -3,7 +3,6 @@ import { Outfit, Source_Sans_3 } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
-import WhatsAppBubble from "@/components/WhatsAppBubble";
 import { siteConfig } from "@/lib/site";
 import {
   DEFAULT_OG_IMAGE,
@@ -103,7 +102,6 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <WhatsAppBubble />
         <CookieBanner />
       </body>
     </html>

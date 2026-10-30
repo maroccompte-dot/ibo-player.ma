@@ -37,6 +37,6 @@ export const homeFaq = [
   {
     question: "Intervenez-vous à Rabat, Marrakech, Tanger, Fès… ?",
     answer:
-      "Oui : l’activation et le SAV se font à distance partout au Maroc. Le siège boutique est à Casablanca ; le diagnostic player + abonnement se fait en ligne (WhatsApp / e-mail).",
+      "Oui : l’activation et le SAV se font à distance partout au Maroc. Le siège est à Marrakech ; le diagnostic player + abonnement se fait en ligne (e-mail / page contact).",
   },
 ] as const;
